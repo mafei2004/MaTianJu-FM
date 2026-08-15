@@ -1,0 +1,23 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.matianju.fm'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.matianju.fm'
+        minSdk 26
+        targetSdk 35
+        versionCode 18
+        versionName '1.0.17'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    testOptions { unitTests.returnDefaultValues = true }
+}
+
+dependencies { testImplementation 'junit:junit:4.13.2' }
