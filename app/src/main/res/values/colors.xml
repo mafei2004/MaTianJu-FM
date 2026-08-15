@@ -1,5 +1,7 @@
 <resources>
-    <color name="ink">#17222D</color>
+    <color name="ink">#111D27</color>
     <color name="paper">#F6F3EC</color>
     <color name="green">#176B5B</color>
+    <color name="muted">#697176</color>
+    <color name="mini_player">#1E293B</color>
 </resources>
